@@ -19,6 +19,10 @@ export const EventCardContainer = styled.div<Props>`
     > p{
         text-align: center;
         font-weight: bold;
+        font-size: 18px;
+            @media(min-width: 768px){
+                font-size: 32px;
+            }
     }
         
         h3 {
@@ -47,7 +51,11 @@ export const Discipline = styled.div`
 `
 
 export const DisciplineImg = styled.img`
-    height: 3rem
+    height: 2.5rem;
+
+    @media(min-width: 768px){
+        height: 3rem;
+    }
 `
 
 export const EventUnitName = styled.div`
