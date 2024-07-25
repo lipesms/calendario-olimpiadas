@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Paris2024';
+  src: url(./fonts/Paris2024-Variable.ttf);
+}
+
+*{
+  font-family: 'Paris2024';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+  background-image: linear-gradient(to right, #44B7D2, #FDA9E4);
+}
+
+.container{
+  max-width: 42rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+
+}
+
+@media (min-width: 768px) {
+    .container{
+      max-width: 50rem;;
+    }
+}
